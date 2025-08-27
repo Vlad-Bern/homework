@@ -1,0 +1,29 @@
+.open-sans {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.lorem-1 {
+    text-decoration: line-through;
+}
+
+.lorem-2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.interval-1 {
+    word-spacing: 30px;
+    color: #0c0ce0;
+    text-decoration: overline wavy;
+    text-shadow: 2px 1px 6px #000;
+}
+
+.interval-2 {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}

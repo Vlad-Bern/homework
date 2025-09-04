@@ -1,0 +1,29 @@
+body {
+    background: #363131;
+    font-size: 60px;
+}
+
+.block {
+    position: relative;
+}
+
+.block__wrapper {
+    position: fixed;
+    left: 50vw;
+    right: 50px;
+    bottom: 100px;
+    background: #e5d2d2;
+    min-height: 100px;
+    width: 800px;
+    border-radius: 10px ;
+}
+
+.wrapper__circle {
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    background: #dc0b0b;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}

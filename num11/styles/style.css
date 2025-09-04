@@ -1,0 +1,32 @@
+body {
+    background: #3d3333;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    color: #e7dbdb;
+    font-size: 100px;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    transform: translate(-200px, 0px);
+    min-height: 1.5em;
+    min-width: 1.5em;
+    border-radius: 50%;
+    background: #da1616;
+    border: 2px solid #e8e1e1;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    transform: translate(50px, 0px);
+    min-height: 1.5em;
+    min-width: 1.5em;
+    border-radius: 50%;
+    background: #1630da;
+    border: 2px solid #e8e1e1;
+}
